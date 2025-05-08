@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import Link from 'next/link'
-import Navbar from '@/components/Navbar'
+import Navbar from "../../components/Navbar"
+
 const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
